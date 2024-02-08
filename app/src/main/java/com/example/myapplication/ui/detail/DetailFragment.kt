@@ -1,7 +1,7 @@
 package com.example.myapplication.ui.detail
 
-import androidx.fragment.app.Fragment
+import com.example.myapplication.ui.BaseFragment
 
-class DetailFragment : Fragment() {
+class DetailFragment : BaseFragment() {
 
 }

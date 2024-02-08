@@ -23,5 +23,9 @@
         android:id="@+id/detailDir"
         android:name="com.example.myapplication.ui.detail.DetailFragment"
         android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="model"
+            app:argType="com.example.myapplication.model.NumberModel" />
+    </fragment>
 </navigation>
