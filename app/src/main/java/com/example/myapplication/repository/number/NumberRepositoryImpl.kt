@@ -1,10 +1,8 @@
-package com.example.myapplication.repository
+package com.example.myapplication.repository.number
 
 import com.example.myapplication.api.DataResult
 import com.example.myapplication.mapper.NumberDtoMapper
 import com.example.myapplication.network.number.NumberDataFetcher
-
-typealias NumberResultStatus = (NumberStatus) -> Unit
 
 class NumberRepositoryImpl(
     private val fetcher: NumberDataFetcher,

@@ -1,10 +1,7 @@
 <resources>
     <string name="app_name">NumbersApp</string>
-    <string name="default_value">0</string>
     <string name="type_here">Type here..</string>
     <string name="search_number">Search number</string>
     <string name="search_random_number">Search random number</string>
     <string name="history_title">History</string>
-
-    <string name="no_internet">No internet connection!</string>
 </resources>

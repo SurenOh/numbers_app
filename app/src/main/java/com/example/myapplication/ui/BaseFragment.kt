@@ -18,6 +18,14 @@ abstract class BaseFragment: Fragment() {
         }
     }
 
+    fun popBackStack() {
+        try {
+            findNavController().popBackStack()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
     fun snackBarMessage(view: View, message: String) {
         val snackBar = Snackbar.make(view, message, Snackbar.LENGTH_SHORT)
         snackBar.setBackgroundTint(ContextCompat.getColor(requireContext(), R.color.green))
